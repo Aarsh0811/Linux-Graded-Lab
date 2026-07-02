@@ -1,0 +1,16 @@
+Project Workspace Report
+
+Directory:
+Project_Workspace
+
+Permissions before: drwxr-xr-x (755)
+
+Permissions after: drwx------(700)
+
+Ownership: aarsh
+
+Umask: 0022
+
+Explanation:
+Permissions prevent unauthorized users from accessing project files.
+Only the owner has complete control.

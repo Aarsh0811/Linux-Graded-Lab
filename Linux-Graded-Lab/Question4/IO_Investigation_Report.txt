@@ -1,0 +1,16 @@
+IO Investigation Report
+
+Open files:
+Command: lsof
+Observation: The lsof command displayed the list of open files and processes currently running on the system. Some entries showed "Permission denied"
+because a normal user cannot access information about certain system processes owned by the root user.
+File descriptors:
+0 1 2 255
+
+Output redirection:
+Saved output into file.
+
+Error redirection:
+Saved errors into file.
+
+Linux manages files using file descriptors.

@@ -1,0 +1,15 @@
+Link Analysis Report
+
+Hard link:
+Shares same inode as original.
+
+Symbolic link:
+Has different inode and points to filename.
+
+After deleting original:
+Hard link still worked.
+Symbolic link failed.
+
+Conclusion:
+Hard links store another directory entry.
+Symbolic links store a path reference.

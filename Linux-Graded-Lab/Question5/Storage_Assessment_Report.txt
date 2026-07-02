@@ -1,0 +1,58 @@
+Storage Assessment Report
+
+Storage Devices:
+NAME MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda    8:0    0 356.9M  1 disk
+sda    8:16   0 159.5M	1 disk
+sda    8:32   0     2G  0 disk [SWAP]
+sdd    8:48   0     1T  0 disk /mnt/wslg/distro
+                               /
+
+Disk Usage:
+Filesystem  Size  Used  Avail  Use%  Mounted on
+none        3.9G     0   3.9G    0%  /usr/lib/modules/6.18.33.1-microsoft-standard-WSL2
+none        3.9G  4.0K   3.9G    1%  /mnt/wsl
+drivers     931G  644G   287G   70%  /usr/lib/wsl/drivers
+/dev/sdd    1007G 1.6G   955G    1%  /
+none        3.9G   88K   3.9G    1%  /mnt/wslg
+none        3.9G     0   3.9G    0%  /usr/lib/wsl/lib
+rootfs      3.9G  2.8M   3.9G    1%  /init
+none        3.9G  548K   3.9G    1%  /run
+none        3.9G     0   3.9G    0%  /run/lock
+none        3.9G     0   3.9G    0%  /run/shm
+none        3.9G   80K   3.9G    1%  /mnt/wslg/versions.txt
+none        3.9G   80K   3.9G    1%  /mnt/wslg/doc
+C:\         931G  644G   287G   70%  /mnt/c
+tmpfs       3.9G     0   3.9G    0%  /tmp
+none        1.0M     0   1.0M    0%  /run/credentials/systemd-journald.service
+none        1.0M     0   1.0M    0%  /run/credentials/systemd-resolved.service
+none        1.0M     0   1.0M    0%  /run/credentials/getty@tty1.service
+tmpfs       781M   12K   781M    1%  /run/user/1000
+
+Inode Usage:
+Filesystem    Inodes    IUsed    IFree    IUse%    Mounted on
+none          998612        5   998607       1%    /usr/lib/modules/6.18.33.1-microsoft-standard-WS
+L2 
+none          998612        2   998610       1%    /mnt/wsl
+drivers          999  -999001  1000000        -    /usr/lib/wsl/drivers
+/dev/sdd    67108864    45092 67063772       1%    /
+none          998612       23   998589       1%    /mnt/wslg
+none          998612        6   998606       1%    /usr/lib/wsl/lib
+rootfs        997173       12   997161       1%    /init
+none          998612      564   998048       1%    /run
+none          998612        2   998610	     1%    /run/lock
+none          998612        1   998611       1%    /run/shm
+none          998612       52   998560       1%    /mnt/wslg/versions.txt
+none          998612       52   998560       1%    /mnt/wslg/doc
+C:\              999  -999001  1000000        -    /mnt/c
+tmpfs        1048576        9  1048567       1%    /tmp
+none            1024        1     1023       1%    /run/credentials/systemd-journald.service
+none            1024        1     1023       1%    /run/credentials/systemd-resolved.service
+none            1024        1     1023       1%    /run/credentials/getty@tty1.service
+tmpfs         199722       44   199678       1%    /run/user/1000
+
+Observations:
+Storage is healthy.
+
+Recommendations:
+Remove unused files and monitor space.

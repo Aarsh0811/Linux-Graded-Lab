@@ -1,0 +1,26 @@
+Linux Environment Verification Report
+
+Username: aarsh
+
+Groups: aarsh adm cdrom sudo dip plugdev users
+
+Shell: /bin/bash
+
+Current Directory: /home/aarsh/Linux-Graded-Lab/Question1
+
+Files: total 12
+drwxr-xr-x 2 aarsh aarsh 4096 Jul 1 13:50 .
+drwxr-xr-x 7 aarsh aarsh 4096 Jul 1 13:39 ..
+-rw-r--r-- 1 aarsh aarsh 149 Jul 1 13:46 commands.txt
+
+Network: PING google.com (142.250.137.113) 56(84) bytes of data.
+64 bytes from pnyyzb-in-f113.1e100.net (142.250.137.113): icmp_seq=1 ttl=109 time=6.68 ms
+64 bytes from pnyyzb-in-f113.1e100.net (142.250.137.113): icmp_seq=3 ttl=109 time=8.28 ms
+64 bytes from pnyyzb-in-f113.1e100.net (142.250.137.113): icmp_seq=4 ttl=109 time=15.4 ms
+
+Observations:
+The commands verified the Linux environment.
+The username and groups showed account information.
+The shell command showed the active shell.
+The ping command verified internet access.
+

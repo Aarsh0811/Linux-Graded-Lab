@@ -1,0 +1,5 @@
+Command: whoami
+Explanation: Shows the current logged-in Linux user.
+
+Command: groups
+Explanation: Displays groups associated with the user account.
