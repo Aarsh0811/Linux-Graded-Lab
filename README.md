@@ -1,2 +1,2 @@
 # Linux-Graded-Lab
-Command-Line Interface SGA-1
+Command-Line Interfaces & Scripting SGA-1
