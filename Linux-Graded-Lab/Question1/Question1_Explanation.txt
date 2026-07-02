@@ -1,1 +1,4 @@
-The Linux commands successfully verified the system environment and user account information. The username, groups, current shell, and working directory were identified correctly. The file listing displayed the contents of the workspace, and the network connectivity test confirmed that the system had internet access. These commands provide essential information for verifying a Linux environment before performing administrative tasks.
+- The Linux commands successfully verified the system environment and user account information. 
+- The username, groups, current shell, and working directory were identified correctly. 
+- The file listing displayed the contents of the workspace, and the network connectivity test confirmed that the system had internet access. 
+- These commands provide essential information for verifying a Linux environment before performing administrative tasks.
